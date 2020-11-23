@@ -8,4 +8,11 @@ class Usuario {
 }
 
 const usuario1 = new Usuario('John','john@john.com','45','This is John.');
-console.log(usuario1.nombre);
+
+const usuario2 = new Usuario('Mary','mary@mary.com','36');
+
+const usuario3 = new Usuario('George','george@george.com','64');
+
+const datosUsuarios = [usuario1, usuario2, usuario3];
+
+console.log(datosUsuarios);
